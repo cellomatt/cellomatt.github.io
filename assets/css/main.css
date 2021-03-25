@@ -1834,11 +1834,7 @@ input, select, textarea {
 		padding: 1.1em 0;
 	}
 
-	@media screen and (min-width: 1848px) {
-		.tech-list--item img {
-			height: 115px;
-		}
-	}
+
 
 /* Box */
 
@@ -3955,4 +3951,11 @@ input, select, textarea {
 				background-attachment: scroll;
 			}
 
+		}
+
+
+		@media screen and (min-width: 1680px) {
+			.tech-list--item img {
+				height: 115px;
+			}
 		}
