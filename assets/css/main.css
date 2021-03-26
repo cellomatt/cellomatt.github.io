@@ -1816,6 +1816,7 @@ input, select, textarea {
 
 	.tech-list--item {
 		padding-right: 2.2em;
+		margin-bottom: 1em;
 		text-align: left;
 	}
 
@@ -1831,7 +1832,7 @@ input, select, textarea {
 		max-width: 88px;
 		height: 84px;
 		box-sizing: border-box;
-		padding: 1.1em 0;
+		padding: 1em 0;
 	}
 
 
@@ -3953,9 +3954,14 @@ input, select, textarea {
 
 		}
 
+		@media screen and (min-width: 1280px) {
+			.tech-list--item img {
+				height: 93.5px;
+			}
+		}
 
 		@media screen and (min-width: 1680px) {
 			.tech-list--item img {
-				height: 115px;
+				height: 118.5px;
 			}
 		}
