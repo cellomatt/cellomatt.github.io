@@ -1804,6 +1804,10 @@ input, select, textarea {
 			max-width: 100%;
 		}
 
+		.project-links {
+			padding-bottom: 1em;
+		}
+
 		.tech-list {
 		display: flex;
 		flex-direction: row;
