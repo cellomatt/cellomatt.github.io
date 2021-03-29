@@ -2040,7 +2040,7 @@ input, select, textarea {
 	}
 
 		.features section {
-			padding: 3.5em 3em 1em 7em ;
+			padding: 3.6em 3em 1em 7em ;
 			width: 50%;
 			border-top: solid 1px rgba(255, 255, 255, 0.15);
 			position: relative;
@@ -2242,7 +2242,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.features section {
-				padding: 2.5em 1.5em 0.1em 5.5em ;
+				padding: 2.7em 1.5em 0.1em 5.5em ;
 			}
 
 				.features section .icon {
@@ -2566,8 +2566,8 @@ input, select, textarea {
 		}
 
 		.icon.major {
-			width: 2.5em;
-			height: 2.5em;
+			width: 3em;
+			height: 3em;
 			display: block;
 			border-radius: 100%;
 			color: #312450;
