@@ -1822,6 +1822,7 @@ input, select, textarea {
 		padding-right: 2.2em;
 		margin-bottom: 1em;
 		text-align: left;
+		transition: .6s;
 	}
 
 	.tech-list--item div {
@@ -1837,6 +1838,10 @@ input, select, textarea {
 		height: 84px;
 		box-sizing: border-box;
 		padding: 1em 0;
+	}
+
+	.tech-list--item:hover {
+		transform: scale(1.1);
 	}
 
 
