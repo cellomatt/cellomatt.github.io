@@ -189,6 +189,7 @@ input, select, textarea {
 
 	h1 {
 		font-size: 4.5em;
+		margin: 0;
 	}
 
 		h1.major {
@@ -1861,7 +1862,7 @@ input, select, textarea {
 	}
 
 	.arrow:hover {
-		text-shadow: 0 0 4px rgba(255, 255, 255, 0.7)
+		/* text-shadow: 0 0 4px rgba(255, 255, 255, 0.7) */
 	}
 
 	a, .arrow, button {
@@ -1906,9 +1907,9 @@ input, select, textarea {
 		transition: border-color 0.2s ease;
 		background-color: transparent;
 		border: solid 1px !important;
-		border-color: rgba(255, 255, 255, 0.15) !important;
+		border-color: rgba(27, 27, 27, 0.35) !important;
 		border-radius: 3em;
-		color: #ffffff !important;
+		color: #1b1b1b !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.6em;
@@ -2018,7 +2019,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			border-color: rgba(255, 255, 255, 0.55) !important;
+			border-color: rgba(27, 27, 27, 1) !important;
 		}
 
 			input[type="submit"]:hover:after,
@@ -3342,7 +3343,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style5 {
-			background-color: #0b9fcc;
+			background-color: #ffffff;
 		}
 
 		.wrapper.fullscreen {
@@ -3606,7 +3607,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #1b1b1b;
+		background: #ffffff;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3819,7 +3820,7 @@ input, select, textarea {
 			-ms-transition: color 0.2s ease;
 			transition: color 0.2s ease;
 			border: 0;
-			color: rgba(255, 255, 255, 0.35);
+			color: rgba(58, 58, 58, 0.7);
 			display: block;
 			font-size: 0.6em;
 			font-weight: bold;
@@ -3859,11 +3860,11 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:hover {
-				color: rgba(255, 255, 255, 0.55);
+				color: #1b1b1b;
 			}
 
 			#sidebar nav a.active {
-				color: #ffffff;
+				color: #1b1b1b;
 			}
 
 				#sidebar nav a.active:after {
@@ -3952,11 +3953,25 @@ input, select, textarea {
 
 		}
 
+/* Cover */
+
+.cover {
+	color: #1b1b1b;
+}
+
+.cover > p, .button {
+	color:rgba(27, 27, 27, 0.7)
+}
+
+.cover .button:hover {
+	border:rgb(27, 27, 27)
+}
+
 /* Intro */
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("images/intro.svg");
+		/* background-image: url("images/intro.svg"); */
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
