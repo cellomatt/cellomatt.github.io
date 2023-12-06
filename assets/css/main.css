@@ -222,6 +222,8 @@ input, select, textarea {
 
 	h3 {
 		font-size: 1.1em;
+		margin-bottom: 0.1em;
+		line-height: 1em;
 	}
 
 	h4 {
@@ -1914,11 +1916,11 @@ input, select, textarea {
 		display: inline-block;
 		font-size: 0.6em;
 		font-weight: bold;
-		height: calc(4.75em + 2px);
+		height: calc(3.2em + 2px);
 		letter-spacing: 0.25em;
-		line-height: 4.75em;
+		line-height: 3.2em;
 		outline: 0;
-		padding: 0 3.75em;
+		padding: 0 2em;
 		position: relative;
 		text-align: center;
 		text-decoration: none;
