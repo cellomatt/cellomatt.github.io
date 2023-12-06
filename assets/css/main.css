@@ -3281,7 +3281,7 @@ input, select, textarea {
 	}
 
 		.wrapper > .inner {
-			padding: 5em 5em 3em 5em ;
+			padding: 3em 5em ;
 			max-width: 100%;
 			width: 75em;
 		}
@@ -3289,7 +3289,7 @@ input, select, textarea {
 			@media screen and (max-width: 1680px) {
 
 				.wrapper > .inner {
-					padding: 4em 4em 2em 4em ;
+					padding: 2em 4em ;
 				}
 
 			}
@@ -3305,7 +3305,7 @@ input, select, textarea {
 			@media screen and (max-width: 736px) {
 
 				.wrapper > .inner {
-					padding: 3em 2em 1em 2em ;
+					padding: 1em 2em ;
 				}
 
 			}
@@ -3957,6 +3957,13 @@ input, select, textarea {
 
 .cover {
 	color: #1b1b1b;
+}
+
+.cover > h1 {
+	text-decoration: underline;
+	text-decoration-thickness: .085em;
+	/* text-underline-offset: .07em; */
+	text-underline-position: from-font;
 }
 
 .cover > p, .button {
