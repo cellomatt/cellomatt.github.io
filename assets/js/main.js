@@ -50,7 +50,7 @@
 			var $sidebar_a = $sidebar.find('a');
 
 			$sidebar_a
-				.addClass('scrolly')
+				
 				.on('click', function() {
 
 					var $this = $(this);
